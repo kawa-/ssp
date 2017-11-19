@@ -2,8 +2,9 @@
 
 - Shell scripts of hdparm and dd for storage
 - Ubuntu only (Other linux might work)
+- For SSD or higher storages (You need edit some values if you use of HDDs)
+- Free Disk space > 6GB
 - Very rough measurement (Don't take the results seriously)
-- For SSD or higher storages
 - I'd like to know your way of measurements with examples. Tell me in issues
 
 ## Usage
