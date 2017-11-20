@@ -13,7 +13,7 @@
 $ git clone https://github.com/kawa-/ssp.git
 $ cd ssp
 
-# Seq read (if sda1 not exist, rewrite it)
+# Seq read (if sda1 does not exist, rewrite it)
 $ ./read-measure.sh 
 + sudo hdparm -tT /dev/sda1
 [sudo] password for kawa: 
