@@ -9,6 +9,8 @@
 
 ## Usage
 
+### Storage
+
 ~~~
 $ git clone https://github.com/kawa-/ssp.git
 $ cd ssp
@@ -41,3 +43,24 @@ $ ./write-rand-measure.sh
 # Done in Ubuntu 16.04 Server on ESXi (i7-3770, SAMSUNG V-NAND SSD 850 EVO 1TB)
 ~~~
 
+### CPU frequency
+
+You can watch dynamic CPU frequency. 
+
+~~~
+$ check-cpu-freq.sh  
+Every 1.0s: grep MHz /proc/cpuinfo Thu Nov 23 20:21:01 2017
+
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+cpu MHz         : 3700.000
+~~~
