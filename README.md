@@ -38,6 +38,6 @@ $ ./write-rand-measure.sh
 1024000000 bytes (1.0 GB, 977 MiB) copied, 13.4192 s, 76.3 MB/s
 + rm file4rtest
 
-# Comment: Done in Ubuntu 16.04 Server on ESXi (i7-3770, SAMSUNG V-NAND SSD 850 EVO 1TB)
+# Done in Ubuntu 16.04 Server on ESXi (i7-3770, SAMSUNG V-NAND SSD 850 EVO 1TB)
 ~~~
 
