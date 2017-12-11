@@ -40,6 +40,13 @@ $ ./write-rand-measure.sh
 1024000000 bytes (1.0 GB, 977 MiB) copied, 13.4192 s, 76.3 MB/s
 + rm file4rtest
 
+# Memory bandwidth
+$ ./memory-bandwidth-measure.sh 
++ dd if=/dev/zero of=/dev/null bs=1M count=100000
+100000+0 records in
+100000+0 records out
+104857600000 bytes (105 GB, 98 GiB) copied, 4.05453 s, 25.9 GB/s
+
 # Done in Ubuntu 16.04 Server on ESXi (i7-3770, SAMSUNG V-NAND SSD 850 EVO 1TB)
 ~~~
 
